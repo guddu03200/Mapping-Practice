@@ -25,10 +25,7 @@ public class Book {
     @JoinColumn(name = "fk_student_id")
     Student student;
 
-    List<Book> books;
 
 
-    public void setBookID(String id) {
 
-    }
 }

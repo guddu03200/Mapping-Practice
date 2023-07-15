@@ -27,11 +27,11 @@ public class BookController {
         return bookService.createBook(book);
     }
 
-    @PutMapping("/{id}")
-    public Book updateBook(@PathVariable("id") String id, @RequestBody Book book) {
-        book.setBookID(id);
-        return bookService.updateBook(book);
-    }
+//    @PutMapping("/{id}")
+//    public Book updateBook(@PathVariable("id") String id, @RequestBody Book book) {
+//        book.setBookID(id);
+//        return bookService.updateBook(book);
+//    }
 
     @DeleteMapping("/{id}")
     public void deleteBook(@PathVariable("id") String id) {
